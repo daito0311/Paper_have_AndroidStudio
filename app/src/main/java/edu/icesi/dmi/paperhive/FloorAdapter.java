@@ -1,5 +1,6 @@
 package edu.icesi.dmi.paperhive;
 
+import android.app.Activity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -9,6 +10,12 @@ import android.widget.BaseAdapter;
  */
 
 public class FloorAdapter extends BaseAdapter{
+    Activity activity;
+
+    public FloorAdapter(Activity activity) {
+        this.activity = activity;
+    }
+
     @Override
     public int getCount() {
         return 0;
