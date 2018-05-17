@@ -1,10 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/floor_image"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20px"
+        android:paddingRight="40px"
+        android:paddingBottom="20px"
+        android:paddingLeft="40px">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piso"
+            android:textSize="8pt"
+            android:textColor="#303F9F"
+            android:textStyle="bold"
+            android:id="@+id/floor_title_tv"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Puestos disponibles: #"
+            android:textStyle="bold"
+            android:id="@+id/floor_available_seats_tv"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:id="@+id/floor_description_tv"/>
+
+    </LinearLayout>
 
 </LinearLayout>
