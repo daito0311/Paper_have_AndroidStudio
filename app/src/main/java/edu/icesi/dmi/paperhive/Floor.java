@@ -12,16 +12,18 @@ public class Floor {
 
     }
 
-    public Floor(String name, String description){
+    public Floor(String name, String description, String id){
         this.name = name;
         this.description = description;
+        this.id = id;
+        available_seats = 0;
     }
 
-    public int getAvailable_seats() {
+    public int getAvailableSeats() {
         return available_seats;
     }
 
-    public void setAvailable_seats(int available_seats) {
+    public void setAvailableSeats(int available_seats) {
         this.available_seats = available_seats;
     }
 

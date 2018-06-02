@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "822291916245",
+    "firebase_url": "https://paper-hive-d374f.firebaseio.com",
+    "project_id": "paper-hive-d374f",
+    "storage_bucket": "paper-hive-d374f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822291916245:android:5b957256ca8aa5c6",
+        "android_client_info": {
+          "package_name": "edu.icesi.dmi.paperhive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822291916245-pfvqeg93c59ekms6tn9rsu64do5260dt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.icesi.dmi.paperhive",
+            "certificate_hash": "31550975908f4bb2be6691d5f169a3c3157e3899"
+          }
+        },
+        {
+          "client_id": "822291916245-nk1v4f5jk7acsdviv1qblbi5rofroglq.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "822291916245-nk1v4f5jk7acsdviv1qblbi5rofroglq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOvv9zgPyPmkWFNrWSTQTbM_gUKikZRg0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822291916245-nk1v4f5jk7acsdviv1qblbi5rofroglq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
